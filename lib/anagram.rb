@@ -12,7 +12,7 @@ class Anagram
 
     matches=[]
 
-    input.select {|subinput| subinput.split("").sort == @word.split("").sort
+    input.select {|subinput| subinput.split("").sort == @word.split("").sort}
 
   end
 
