@@ -9,7 +9,7 @@ class Anagram
   def match(input)
     matches=[]
     %w(input).each do |test|
-      # matches<<test if test.map.sort == @word.map.sort
+      matches<<test if test.map.sort == @word.map.sort
 
       # compare @word to test and see if they are anagrams
 
