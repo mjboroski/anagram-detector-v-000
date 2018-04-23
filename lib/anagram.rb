@@ -12,12 +12,9 @@ class Anagram
 
     matches=[]
 
-    input.each do |test|
-      matches<<test if test.split("").sort == @word.split("").sort
-      # compare @word to test and see if they are anagrams
-    end
+    input.select {|subinput| subinput.split("").sort == @word.split("").sort
 
-    matches
+    end
 
   end
 
