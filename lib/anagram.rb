@@ -16,3 +16,4 @@ class Anagram
     end
     matches.flatten
   end
+end
