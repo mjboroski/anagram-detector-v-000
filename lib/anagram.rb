@@ -14,8 +14,6 @@ class Anagram
 
     input.select {|subinput| subinput.split("").sort == @word.split("").sort
 
-    end
-
   end
 
 end
